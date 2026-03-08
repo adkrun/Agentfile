@@ -17,9 +17,9 @@ Basic knowledge about how to use Github:
 ### Before you start making changes
 
 1. Check whether the change you want to introduce is not already present in the base repository.
-   Main base repository can be cloned from: https://github.com/adk-run/agentfile
+   Main base repository can be cloned from: https://github.com/adkrun/Agentfile
 2. Check whether the change you want to introduce has not been already submitted by someone else.
-    - https://github.com/adk-run/agentfile/pulls
+    - https://github.com/adkrun/Agentfile/pulls
 3. If you've found that someone already did what you wanted to do, then be patient. The change should be applied soon in
    the main repository, unless maintainers are busy or the patch needs to be improved.
    If it seems that your change won't be duplicating already done work, then please continue.
@@ -27,7 +27,7 @@ Basic knowledge about how to use Github:
 ### Creating a Pull Request (PR)
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) our Agent Development Kit base repository.
-2. Clone your copy of base `git clone git@github.com:adk-run/agentfile.git`.
+2. Clone your copy of base `git clone git@github.com:adkrun/Agentfile.git`.
 3. Create a feature branch `git checkout -b my_new_feature`.
 4. Make your desired changes and commit them with
    a [correct commit message](https://git-scm.com/book/ch5-2.html#Commit-Guidelines).
