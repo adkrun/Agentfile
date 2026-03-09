@@ -30,21 +30,26 @@ This document outlines the terminology, directory structure, and configuration s
 ├── SOUL.md                 # Core values, motivations, and internal logic
 ├── memories/               # Directory containing session-based context
 │   └── <session-name>/     # Unique identifier for the interaction thread
-│       └── MEMORY.json     # Stored state, facts, and interaction logs
+│       ├── MEMORY.json     # Stored state, facts, and interaction logs
+│       └── INSIGHTS.md     # Extracted patterns, takeaways, and session-specific learnings
 ├── prompts/                # Directory containing custom prompt templates
 │   └── <prompt-name>/      
 │       └── PROMPT.md       # Logic for a specific prompt
-└── skills/                 # Domain-specific capabilities
-    ├── <skill-name>/       # E.g., "social", "trading"
-    │   ├── SKILL.md        # Instructions for this skill
-    │   └── scripts/        # Executable tools belonging to this skill
-    │       ├── calculator.ts 
-    │       ├── <tool-name>.ts
-    │
-    └── <another-skill>/    # Additional skills follow the exact same pattern
-        ├── SKILL.md
-        └── scripts/
-            ├── <tool-name>.go
+├── skills/                 # Domain-specific capabilities
+│   ├── <skill-name>/       # E.g., "social", "trading"
+│   │   ├── SKILL.md        # Instructions for this skill
+│   │   └── scripts/        # Executable tools belonging to this skill
+│   │       ├── calculator.ts 
+│   │       ├── <tool-name>.go
+│   │
+│   └── <another-skill>/    # Additional skills follow the exact same pattern
+│       ├── SKILL.md
+│       └── scripts/
+│           ├── <tool-name>.go
+└── users/                  # User-specific knowledge and context
+    └── <user-name>/        # Unique identifier for each user
+        └── USER.md         # The user profile. Contains the specific knowledge, preferences, background, and context about the human interacting with the agent.
+
 ```
 
 ## Component Anatomy
@@ -207,6 +212,8 @@ Based on our history, the user {{user-name|The name of the human}} prefers {{pre
 ### AGENT.md
 
 ### IDENTITY.md
+
+### INSIGHTS.md
 
 ### MEMORY.json
 
