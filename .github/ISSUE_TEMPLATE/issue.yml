@@ -5,11 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Thanks for helping us to improve Agentfile!**
+        **Thanks for helping us to improve Specification!**
 
         We welcome all issues reports. Please fill out each area of the form so we can better help you.
         If you are reporting, make sure that we do not have any duplicates already open.
-        You can ensure this by searching the [issue list](https://github.com/adkrun/Agentfile/issues?q=is:issue+label:issue) for this repository.
+        You can ensure this by searching the [issue list](https://github.com/adkrun/Specification/issues?q=is:issue+label:issue) for this repository.
         If there is a duplicate, please close your issue and add a comment to the existing issue instead.
 
         ---
@@ -65,7 +65,7 @@ body:
   - type: checkboxes
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/adkrun/Agentfile/blob/main/CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/adkrun/Specification/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this repository Code of Conduct
           required: true

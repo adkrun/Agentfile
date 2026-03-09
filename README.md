@@ -1,9 +1,10 @@
 ---
-title: "agentfile"
-description: "This document defines the general Agentfile specification."
+title: "specification"
+description: "This document defines the general Agent specification."
 version: 0.1.0-draft
 ---
-# Agentfile Specification
+
+# Agent Specification
 
 This document outlines the terminology, directory structure, and configuration standards used to build and define an Agent.
 
@@ -46,9 +47,9 @@ This document outlines the terminology, directory structure, and configuration s
             ├── <tool-name>.go
 ```
 
-## Agentfile Anatomy
+## Agent Anatomy
 
-An Agentfile component can be defined using a Markdown (`.md`), Go (`.go`), TypeScript (`.ts`), or JSON (`.json`) file. The core configuration for that component is stored inside the **YAML Frontmatter** at the very top of the file, followed by the specific content, instructions, or code.
+An Agent component can be defined using a Markdown (`.md`), Go (`.go`), TypeScript (`.ts`), or JSON (`.json`) file. The core configuration for that component is stored inside the **YAML Frontmatter** at the very top of the file, followed by the specific content, instructions, or code.
 
 ```markdown
 ---
@@ -141,7 +142,7 @@ version: 0.1.0-beta
 #### `license` field
 
 The optional `license` field:
-- Specifies the license applied to the skill
+- Specifies the license applied to the Agent component
 - We recommend keeping it short (either the name of a standard license or the name of a bundled license file)
 
 Good example:
