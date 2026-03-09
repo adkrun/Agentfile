@@ -1,6 +1,6 @@
 <!--
 
-Thanks for helping us to improve Agentfile!
+Thanks for helping us to improve Specification!
 
 Make sure that we do not have any duplicates already open.
 You can ensure this by searching the PR list for this repository.
