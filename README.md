@@ -47,7 +47,7 @@ This document outlines the terminology, directory structure, and configuration s
             ├── <tool-name>.go
 ```
 
-## Agent Anatomy
+## Component Anatomy
 
 An Agent component can be defined using a Markdown (`.md`), Go (`.go`), TypeScript (`.ts`), or JSON (`.json`) file. The core configuration for that component is stored inside the **YAML Frontmatter** at the very top of the file, followed by the specific content, instructions, or code.
 
@@ -202,18 +202,20 @@ I have been observing our interaction regarding {{topic|The current subject of d
 Based on our history, the user {{user-name|The name of the human}} prefers {{preference|The user's specific interaction style}}.
 ```
 
-## AGENT.md
+## Components
 
-## IDENTITY.md
+### AGENT.md
 
-## MEMORY.json
+### IDENTITY.md
 
-## PROMPT.md
+### MEMORY.json
 
-## SKILL.md
+### PROMPT.md
 
-## SOUL.md
+### SKILL.md
 
-## TOOL
+### SOUL.md
 
-## USER.md
+### TOOL
+
+### USER.md
